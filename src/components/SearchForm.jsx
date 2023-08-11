@@ -11,7 +11,7 @@ const SearchForm = () => {
     const getMovieCard = async () => {
         try {
           setLoading(true);
-          const res = await axios.get(`http://localhost:5000/api/title/${keyword}`)
+          const res = await axios.get(`https://movie-pro-backend.vercel.app/api/title/${keyword}`)
          
           const { data } = res;
           setLoading(false);
