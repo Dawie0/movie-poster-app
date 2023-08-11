@@ -9,7 +9,7 @@ const NavBar = () => {
             </div>
             <div className='col-xs-12 col-md-8 d-none d-md-block d-flex justify-content-center'>
                 <div className='title'>
-                    <h1>Movie Poster</h1>
+                    <h1>Movie Pro</h1>
                 </div>
             </div>
         </div>
