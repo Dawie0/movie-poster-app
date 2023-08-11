@@ -1,0 +1,32 @@
+body {
+  background-color: #1B1B1B;
+  color: white;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.title {
+  margin-left: 200px;
+}
+
+@media (max-width: 576px) {
+  /* For screen widths up to 576px (e.g., xs), apply smaller font size */
+h3 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 12px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /* For screen widths between 576px and 768px (e.g., sm), apply medium font size */
+  h3 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+}
